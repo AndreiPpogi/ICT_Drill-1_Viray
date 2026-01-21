@@ -18,7 +18,7 @@
       border-radius: 12px;
       padding: 30px;
       width: 520px;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
     }
 
     .display {
@@ -30,7 +30,6 @@
       font-size: 20px;
       font-weight: bold;
       background-color: #fafafa;
-      letter-spacing: 1px;
     }
 
     .row {
@@ -46,27 +45,29 @@
     .inputs strong {
       display: block;
       margin-bottom: 6px;
-      font-size: 15px;
     }
 
     .fake-input {
-      display: inline-block;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
       width: 72px;
       height: 34px;
       border: 2px solid #333;
       border-radius: 6px;
       margin-right: 8px;
+      font-weight: bold;
       background-color: #fff;
     }
 
     .fake-button {
-      display: inline-block;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
       width: 42px;
       height: 34px;
       border: 2px solid #333;
       border-radius: 6px;
-      text-align: center;
-      line-height: 32px;
       font-weight: bold;
       background-color: #eaeaea;
     }
@@ -91,41 +92,41 @@
     <div class="row">
       <div class="inputs">
         <strong>Addition</strong>
-        <div class="fake-input"></div>
-        <div class="fake-input"></div>
+        <div class="fake-input">8</div>
+        <div class="fake-input">5</div>
         <div class="fake-button">=</div>
       </div>
-      <div class="result">Result</div>
+      <div class="result">13</div>
     </div>
 
     <div class="row">
       <div class="inputs">
         <strong>Subtraction</strong>
-        <div class="fake-input"></div>
-        <div class="fake-input"></div>
+        <div class="fake-input">12</div>
+        <div class="fake-input">4</div>
         <div class="fake-button">=</div>
       </div>
-      <div class="result">Result</div>
+      <div class="result">8</div>
     </div>
 
     <div class="row">
       <div class="inputs">
         <strong>Multiplication</strong>
-        <div class="fake-input"></div>
-        <div class="fake-input"></div>
+        <div class="fake-input">6</div>
+        <div class="fake-input">7</div>
         <div class="fake-button">=</div>
       </div>
-      <div class="result">Result</div>
+      <div class="result">42</div>
     </div>
 
     <div class="row">
       <div class="inputs">
         <strong>Division</strong>
-        <div class="fake-input"></div>
-        <div class="fake-input"></div>
+        <div class="fake-input">20</div>
+        <div class="fake-input">5</div>
         <div class="fake-button">=</div>
       </div>
-      <div class="result">Result</div>
+      <div class="result">4</div>
     </div>
   </div>
 </body>
